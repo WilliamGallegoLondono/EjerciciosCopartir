@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.Bonbonite.runners.ComprasRunner</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.Bonbonite.runners.ComprasRunner</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.Bonbonite.runners.html">com.Bonbonite.runners</a> &gt; ComprasRunner</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+?[31mFailed scenarios:?[0m
+?[31mfile:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:20?[0m# compras
+
+1 Scenarios (?[31m1 failed?[0m)
+11 Steps (?[31m1 failed?[0m, ?[36m3 skipped?[0m, ?[32m7 passed?[0m)
+0m22,656s
+
+
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;single_add_to_cart_button button alt disabled wc-variation-is-unavailable&quot;&gt;...&lt;/button&gt; is not clickable at point (962, 498). Other element would receive the click: &lt;div class=&quot;message_bar&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S8D4UU32', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\willr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ffadaa15ef592b059fe0c7219bc848e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1270)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$6ROVlUV0.performAs$accessor$JACL9Rpb(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$6ROVlUV0.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:253)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:234)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:180)
+	at com.Bonbonite.task.AgregarAlCarrito.performAs(AgregarAlCarrito.java:18)
+	at com.Bonbonite.task.AgregarAlCarrito$ByteBuddy$yUnZkkBS.performAs$accessor$kwVPFZYo(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.Bonbonite.task.AgregarAlCarrito$ByteBuddy$yUnZkkBS.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:253)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:234)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:180)
+	at net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:167)
+	at com.Bonbonite.steepsdefinitions.ComprasSteepDefinitions.oprimoElBotonAgregarAlCarrito(ComprasSteepDefinitions.java:70)
+	at ?.oprimo el boton agregar al carrito(file:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:12)
+
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at 7/10/2022, 8:28:51 a. m.</p>
+</div>
+</div>
+</body>
+</html>

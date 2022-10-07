@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="comprando en Bon Bonite" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-07T13:28:27" hostname="LAPTOP-S8D4UU32" time="22.473">
+  <properties/>
+  <testcase name="compras" classname="comprando en Bon Bonite" time="22.473">
+    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;single_add_to_cart_button button alt disabled wc-variation-is-unavailable&quot;&gt;...&lt;/button&gt; is not clickable at point (962, 498). Other element would receive the click: &lt;div class=&quot;message_bar&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=105.0.5195.127)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-S8D4UU32', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\willr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3ffadaa15ef592b059fe0c7219bc848e" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;single_add_to_cart_button button alt disabled wc-variation-is-unavailable&quot;&gt;...&lt;/button&gt; is not clickable at point (962, 498). Other element would receive the click: &lt;div class=&quot;message_bar&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-S8D4UU32', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\willr\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ffadaa15ef592b059fe0c7219bc848e
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.4.1/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.4.1/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.4.1/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at app//org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at app//net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1270)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$6ROVlUV0.performAs$accessor$JACL9Rpb(Unknown Source)
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//net.serenitybdd.screenplay.actions.ClickOnTarget$ByteBuddy$6ROVlUV0.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:253)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:234)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:180)
+	at app//com.Bonbonite.task.AgregarAlCarrito.performAs(AgregarAlCarrito.java:18)
+	at app//com.Bonbonite.task.AgregarAlCarrito$ByteBuddy$yUnZkkBS.performAs$accessor$kwVPFZYo(Unknown Source)
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:492)
+	at app//net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:472)
+	at app//net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:445)
+	at app//net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:201)
+	at app//net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:188)
+	at app//net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:76)
+	at app//net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at app//com.Bonbonite.task.AgregarAlCarrito$ByteBuddy$yUnZkkBS.performAs(Unknown Source)
+	at app//net.serenitybdd.screenplay.Actor.performTask(Actor.java:253)
+	at app//net.serenitybdd.screenplay.Actor.perform(Actor.java:234)
+	at app//net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:180)
+	at app//net.serenitybdd.screenplay.Actor.wasAbleTo(Actor.java:167)
+	at app//com.Bonbonite.steepsdefinitions.ComprasSteepDefinitions.oprimoElBotonAgregarAlCarrito(ComprasSteepDefinitions.java:70)
+	at ✽.oprimo el boton agregar al carrito(file:///C:/Users/willr/IdeaProjects/TestQVision/src/test/resources/compras.feature:12)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 34880
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+oct. 07, 2022 8:28:29 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
